@@ -1,5 +1,49 @@
-## 95. Ankara Java Bootcamp
+##  🚀 95. Ankara Java Bootcamp 🎓
 
-* Ödevler 
-* Çalışmalar 
-* Dersler
+**Kodluyoruz ekibi tarafından düzenlenen Java BootCamp de yapılan çalışmalar, ödevler ve projeler yayınlanacaktır. ☕️ **
+
+----
+
+* **Eğitmen** : *Nesrin Aşan* 👩‍🏫
+* **Yer** : *Turkey* 🇹🇷
+* **Ekip** : [*Kodluyoruz*](https://www.kodluyoruz.org) 🎷🥁🎸🪗🎪
+* **Eğitim** : *Online* 👨‍💻
+* **Tarih** :  *26 Haziran - 18 Temmuz* ☀️🌍
+
+---
+
+
+
+```java
+class Kodluyoruz{
+	public static void main(String[] args){
+		System.out.println("Thank you for opportunity");	}
+}
+```
+
+
+
+![Resim](https://media.kommunity.com/communities/kodluyoruz/17637/27971846_748761281998348_2999043640998413504_n.png?p=community-800)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
