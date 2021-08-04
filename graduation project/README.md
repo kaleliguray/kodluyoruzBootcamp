@@ -1,6 +1,6 @@
 # Graduation Project
 
-There are two different projects Which are my graduation project in the repo. One of them is a *core java project*. In this project I tried to make a **"Caesar Encryption"**. The other one is a *spring boot project*. I wanted to create a **"Lesson Automation System"**. At the below I explained which dependency I used and how I coded the project. Also I put a sql-uml diagram in the project folder.Thus; you may see how I designed my relation between entitys clearly.
+There are two different projects Which are my graduation project in the repo. One of them is a *core java project*. In this project I tried to make a **"Caesar Encryption"**. The other one is a *spring boot project*. I wanted to create a **"Lesson Automation System"**. At the below I explained which dependency I used and how I coded the project. Also I put a sql-uml diagram(name = "Lesson.pdf" inside = "lessons") in the project folder.Thus; you may see how I designed my relation between entitys clearly.
 
 ## Technical Stack
 
