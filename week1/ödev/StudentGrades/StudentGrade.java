@@ -1,3 +1,11 @@
+/**
+ * 
+ * @author Guray Kaleli,2021
+ * 
+ * @return take Student points and decide pass or fail based on average point
+ * 
+ * */
+
 package com.week1.ödev.studentGrades;
 
 import java.util.Scanner;
@@ -6,15 +14,18 @@ public class StudentGrade {
 
     public static void main(String[] args) {
 
+        // object from scanner class to get input from user
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("How many lecture do you have in semester: ");
         int lectureNumb = scanner.nextInt();
 
+        // create an array because you can more easily keep the lesson points in a single variable
         int[] points = new int[lectureNumb];
         double total = 0D;
         double avragePoints = 0D;
 
+        // get points from user with for loop
         for(int i = 0; i < points.length; i++){
             System.out.print("Enter your lecture points : " );
             points[i] = scanner.nextInt();
@@ -22,7 +33,11 @@ public class StudentGrade {
         }
 
         scanner.close();
-
+        
+        /*
+        *  calculate the average score and make a decision about the student
+        */
+        
         avragePoints =  total / lectureNumb;
 
         System.out.println("Your average is : " + avragePoints);

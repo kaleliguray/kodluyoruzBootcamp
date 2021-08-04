@@ -17,7 +17,8 @@
 ```java
 class Kodluyoruz{
 	public static void main(String[] args){
-		System.out.println("Thank you for opportunity");	}
+		System.out.println("thanks for the experience");	
+	}
 }
 ```
 
