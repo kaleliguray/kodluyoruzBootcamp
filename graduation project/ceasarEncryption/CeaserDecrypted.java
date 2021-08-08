@@ -13,7 +13,6 @@ public class CeaserDecrypted {
 
         System.out.print("Please enter your cipher shift : ");
         int shift = scanner.nextInt();
-        shift = 26 - shift;
 
 
         StringBuffer buffer = new StringBuffer();
@@ -22,13 +21,13 @@ public class CeaserDecrypted {
 
             if(Character.isUpperCase(text.charAt(i))){
 
-                char chip = (char)(((int)text.charAt(i) + (shift - 65)) % 26 + 65) ;
+                char chip = (char)(((int)text.charAt(i) - (shift - 65)) % 26 + 65) ;
 
                 buffer.append(chip);
 
             } else {
 
-                char chip = (char)(((int)text.charAt(i) + (shift - 97)) % 26 + 97);
+                char chip = (char)(((int)text.charAt(i) - (shift - 97)) % 26 + 97);
 
                 buffer.append(chip);
 
@@ -39,7 +38,7 @@ public class CeaserDecrypted {
 
         System.out.println("Text  : " + text);
         System.out.println("Decrypted Shift : " + shift);
-        System.out.println("Decrypted Text: " + buffer);
+        System.out.println("Decrypted Text: " + buffer.toString().toLowerCase());
 
     }
 

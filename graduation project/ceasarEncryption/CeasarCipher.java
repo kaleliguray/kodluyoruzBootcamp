@@ -9,7 +9,7 @@ public class CeasarCipher {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Please enter your message : ");
-        String text = scanner.nextLine();
+        String text = scanner.nextLine().replaceAll("\\W", "");
 
         System.out.print("Please enter your cipher shift : ");
         int shift = scanner.nextInt();
@@ -38,7 +38,7 @@ public class CeasarCipher {
 
         System.out.println("Text  : " + text);
         System.out.println("Shift : " + shift);
-        System.out.println("Cipher: " + buffer);
+        System.out.println("Cipher: " + buffer.toString().toUpperCase());
 
 
     }
