@@ -46,7 +46,7 @@ After cloning the project, you can open the project with Eclips or IntellijIDEA.
 For Linux:
 
 ```
-cd kodluyoruzilkrepo
+cd kodluyoruzBootcamp
 code .
 ```
 
